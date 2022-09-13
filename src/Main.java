@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        int[] digits = {9,8,7,6,5,4,3,9,9};
+        int[] digits = {9};
 
         int[] dig = plusOne(digits);
         for(int j : dig){
@@ -10,22 +10,24 @@ public class Main {
     }
 
     public static int[] plusOne(int[] digits) {
-        String s = "";
-        for(int i : digits){
-            s=s+ Integer.toString(i);
+        for(int i = digits.length-1; i>=0; i--){
+            if(digits[i]==9){
+                digits[i]=0;
+            }else{
+                digits[i]++;
+                break;
+            }
         }
-        int i = Integer.parseInt(s);
-        i++;
-
-        s = Integer.toString(i);
-        String[] sArr = s.split("");
-
-        int[] addedArr= new int[s.length()];
-        for(int j = 0; j <= addedArr.length-1; j++){
-            addedArr[j] = Integer.parseInt(sArr[j]);
+        if(digits[0]==0){
+            int[] bigDigits = new int[digits.length+1];
+            bigDigits[0]=1;
+            for(int i = 0; i< digits.length; i++){
+                bigDigits[i+1] = digits[i];
+            }
+            return bigDigits;
         }
+        return digits;
 
-        return addedArr;
     }
 
 }

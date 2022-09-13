@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9b1469c-df62-4606-82d5-91d6f3167186" name="Changes" comment="">
+    <list default="true" id="e9b1469c-df62-4606-82d5-91d6f3167186" name="Changes" comment="New approach - mainly works, but need to iron out time constraints">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -51,6 +51,14 @@
       <option name="presentableId" value="Default" />
       <updated>1662824756975</updated>
     </task>
+    <task id="LOCAL-00001" summary="New approach - mainly works, but need to iron out time constraints">
+      <created>1662944417406</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662944417406</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -63,5 +71,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New approach - mainly works, but need to iron out time constraints" />
+    <option name="LAST_COMMIT_MESSAGE" value="New approach - mainly works, but need to iron out time constraints" />
   </component>
 </project>
